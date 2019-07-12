@@ -21,7 +21,7 @@ body {
 
   .el {
     position: absolute;
-    left: 18em;
+    float: center;
     opacity: 1;
     width: 2px;
     height: 10vh;
