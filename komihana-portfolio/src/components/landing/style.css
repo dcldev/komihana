@@ -37,11 +37,9 @@
     
   .landingLogo {
     font-family: 'Lemon/Milk Regular';
-    position: relative;
     background-color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
     text-align: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);

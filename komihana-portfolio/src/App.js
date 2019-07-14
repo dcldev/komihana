@@ -5,10 +5,12 @@ import Landing from './components/landing';
 
 function App() {
   return (
-  <div>
+  <div className="grid-container">
+    
     <Landing/>
     
-            <Loadinganimation/>
+    <Loadinganimation/>
+    
   </div>
 
   );
