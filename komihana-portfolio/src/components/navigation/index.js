@@ -30,9 +30,10 @@ export default function KomihanaNav() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+            DL
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">About</Button>
+          <Button colro="inherit">Contact</Button>
         </Toolbar>
       </AppBar>
     </div>
