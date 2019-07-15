@@ -2,8 +2,3 @@
 body {
   background: black;
 }
-
-.grid-container {
-  display: grid;
-  grid-template-columns: auto;
-}
