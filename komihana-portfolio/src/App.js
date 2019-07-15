@@ -7,6 +7,7 @@ import Landing from "./pages/landing";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
+import Portfolio from "./pages/portfolio";
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ render () {
         <Route path="/home" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/portfolio" component={Portfolio} />
       </Switch>
     </Router> 
     );
