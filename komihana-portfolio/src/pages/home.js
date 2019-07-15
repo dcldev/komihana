@@ -8,7 +8,6 @@ class Home extends Component {
   
       return (
       <div>
-        <KomihanaNav/>
         <div>
           <h1 style={{color: "white"}}>This is the Home Page</h1>
         </div>
