@@ -1,9 +1,28 @@
 import React, { Component } from "react";
 import anime from "animejs";
-import '../loadinganimation/style.css'
+import { NavLink } from "react-router-dom";
+import { makeStyles, styled } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
+import './style.css'
+
+// const useStyles = makeStyles(theme => ({
+ 
+//   button: {
+//     margin: theme.spacing(1),
+    
+//   },
+//   input: {
+//     display: 'none',
+//   },
+// }));
+
+const EntranceButton = styled(Button)({
+  height: 48,
+  padding: '0 8px'
+});
 
 
-export default class Loadinganimation extends Component {
+export default class Landinganimation extends Component {
 
     componentDidMount() {
         this.anime();
@@ -55,9 +74,21 @@ export default class Loadinganimation extends Component {
 
     render() {
         return (
-            
           <div className="grid-container">
-            <div className="spinner"></div>
+            <header className="landingLogo">
+              <div>  
+                <h1>KOMIHANA | Daniel Lee</h1>
+                <h5>Commissioned Fullstack Developer</h5>
+              </div>
+            </header>
+            <div className="grid-container">
+              <div className="spinner"></div>
+            </div>
+            <div className="entrance-container">
+              <NavLink style={{textDecoration: "none"}}to="/home">
+                <EntranceButton style={{color:'white', font:'Lemon/Milk Regular'}}>Welcome</EntranceButton>
+              </NavLink>
+            </div>
           </div>
       
         );

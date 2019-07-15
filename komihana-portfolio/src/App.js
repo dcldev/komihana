@@ -1,19 +1,26 @@
 import React, { Component } from "react";
-// import { BrowserRouter as Router, Route, Switch, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
-import Landing from './components/landing';
-import Loadinganimation from './components/loadinganimation';
+// import Landinganimation from './components/landinganimation';
+import Landing from "./pages/landing";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 
 
 class App extends Component {
 
 render () {
   return (
-      <div className="grid-container">
-        <div><Landing/></div>
-        <div><Loadinganimation/></div>
-      </div>
-
+    <Router>
+      <Switch>
+        <Route exact path="/" component={Landing} />
+        <Route path="/home" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+    </Router> 
     );
   }
 }

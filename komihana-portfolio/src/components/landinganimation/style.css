@@ -6,7 +6,25 @@
   align-content: center;
 }
 
+.entrance-container {
+  margin-top: 6em;
+}
+
+.landingLogo {
+  font-family: 'Lemon/Milk Regular';
+  display: grid;
+  grid-template-columns: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #d6f5ee;
+}
+
+
 .spinner {
+  display:grid;
+  align-content: center;
   margin-top: 6em;
   width: 1px;
 }

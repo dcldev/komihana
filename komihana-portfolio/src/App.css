@@ -1,3 +1,40 @@
+@font-face {
+  font-family: 'Lemon/Milk Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk Regular'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilk.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+@font-face {
+  font-family: 'Lemon/Milk Regular italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk Regular italic'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilkitalic.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+@font-face {
+  font-family: 'Lemon/Milk light italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk light italic'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilklightitalic.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+@font-face {
+  font-family: 'Lemon/Milk Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk Bold'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilkbold.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+@font-face {
+  font-family: 'Lemon/Milk Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk Bold'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilkbolditalic.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+@font-face {
+  font-family: 'Lemon/Milk light Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Lemon/Milk light Regular'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilklight.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
+}
+
 body {
   background-color: black;
 }
