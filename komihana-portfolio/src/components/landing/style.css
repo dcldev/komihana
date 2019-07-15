@@ -34,13 +34,18 @@
     font-weight: normal;
     src: local('Lemon/Milk light Regular'), url('https://www.cufonfonts.com/cdn/webfont/lemonmilk/LemonMilklight.woff?token=wUvF6Uce5YyCS-W3Oj89SyVSNSgpqKQ6') format('woff');
   }
+
+  .grid-container {
+    display: inline-grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    align-content: center;
+  }
     
   .landingLogo {
     font-family: 'Lemon/Milk Regular';
-    position: relative;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
     align-items: center;
     text-align: center;
     justify-content: center;

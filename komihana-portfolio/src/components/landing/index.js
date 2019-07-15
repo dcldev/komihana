@@ -4,7 +4,7 @@ import '../landing/style.css';
 function Landing() {
 
     return (
-      <div>
+      <div className="grid-container">
         <header className="landingLogo">
           <div>  
           <h1>KOMIHANA | Daniel Lee</h1>
