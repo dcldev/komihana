@@ -15,7 +15,7 @@ export default class Loadinganimation extends Component {
 
     anime = () => {
 
-    const wrapperEl = document.querySelector('.spinner');
+    const wrapperEl = document.querySelector('.wrapper');
     const numberOfEls = 90;
     const duration = 6000;
     const delay = duration / numberOfEls;
@@ -55,10 +55,10 @@ export default class Loadinganimation extends Component {
 
     render() {
         return (
-         
-          <div className="grid-columns">
-            <div className="spinner"></div>
-          </div>
+            
+            <div className="wrapper">
+            </div>
+      
         );
     }
 }

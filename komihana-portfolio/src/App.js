@@ -9,6 +9,7 @@ class App extends Component {
 
 render () {
   return (
+<<<<<<< HEAD
 
   <div>
       <Router>
@@ -30,6 +31,12 @@ render () {
 
       
 
+=======
+  <div>
+    <Landing/>
+    
+            <Loadinganimation/>
+>>>>>>> parent of c8a7154... converted to css grid
   </div>
 
     );
