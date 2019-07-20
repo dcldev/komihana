@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 // import { BrowserRouter as Router, Route, Switch, NavLink } from "react-router-dom";
-import KomihanaNav from '../components/navigation';
+// import KomihanaNav from '../components/navigation';
 
 class Home extends Component {
     
